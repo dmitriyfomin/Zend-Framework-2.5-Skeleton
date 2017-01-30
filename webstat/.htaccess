@@ -1,7 +1,0 @@
-AuthType Basic
-AuthName "/www/zend.studyofreligion.ru/webstat"
-AuthUserFile /var/www/iscript/data/etc/270954.passwd
-DirectoryIndex index.html
-<Limit GET POST>
-	require valid-user
-</Limit>
